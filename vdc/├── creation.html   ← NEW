@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Creation</title>
+
+<style>
+body{
+background:#0b0b0b;
+color:white;
+font-family:Georgia,serif;
+text-align:center;
+padding:60px;
+}
+
+h1{
+color:gold;
+font-size:60px;
+}
+
+h2{
+color:#8fd3ff;
+}
+
+a{
+color:#00d4ff;
+text-decoration:none;
+font-size:22px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🎨 Creation</h1>
+
+<h2>Image Creation Spell</h2>
+
+<p>
+<b>Purpose:</b><br><br>
+
+Creation is the official VDC spell used to create brand-new images from a prompt. It serves as the foundation for visual generation throughout the Codex.
+</p>
+
+<hr>
+
+<p><a href="brohmu.html">← Return to Book of Brohmu</a></p>
+
+</body>
+</html>
