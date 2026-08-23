@@ -1,52 +1,159 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>The Codex</title>
-<meta name="robots" content="noindex">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Vyni D Spellbook Codex</title>
+
 <style>
-body{
-background:#0b0b0b;
-color:white;
-font-family:Georgia,serif;
-text-align:center;
-padding:60px;
+html {
+  scroll-behavior: smooth;
 }
-h1{
-font-size:60px;
-color:gold;
+
+body {
+  background:
+    radial-gradient(circle at top, #173828 0%, #0b0b0b 45%);
+  color: white;
+  font-family: Georgia, serif;
+  text-align: center;
+  margin: 0;
+  padding: 40px 20px 80px;
 }
-h2{
-color:#8fd3ff;
+
+.cover {
+  display: block;
+  width: 100%;
+  max-width: 620px;
+  height: auto;
+  margin: 20px auto 35px;
+  border: 5px solid #c99a2e;
+  box-shadow:
+    0 0 20px rgba(255, 215, 0, 0.55),
+    0 15px 40px rgba(0, 0, 0, 0.9);
 }
-a{
-color:#00d4ff;
-text-decoration:none;
-font-size:22px;
+
+.enter-button {
+  display: inline-block;
+  background: linear-gradient(#e7bd55, #9c6817);
+  color: #090909;
+  border: 2px solid gold;
+  border-radius: 10px;
+  padding: 16px 30px;
+  margin-bottom: 70px;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.45);
+}
+
+.archive {
+  width: 100%;
+  max-width: 850px;
+  margin: auto;
+  padding: 40px 20px;
+  background: rgba(0, 0, 0, 0.78);
+  border: 2px solid #8f702c;
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: gold;
+  font-size: 52px;
+  margin-top: 0;
+}
+
+h2 {
+  color: #8fd3ff;
+}
+
+.description {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.navigation {
+  margin-top: 35px;
+}
+
+.navigation a {
+  display: block;
+  max-width: 500px;
+  margin: 18px auto;
+  padding: 14px;
+  color: #00d4ff;
+  background: #111;
+  border: 1px solid #8f702c;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.navigation a:hover {
+  color: gold;
+  border-color: gold;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 20px 12px 60px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  .navigation a {
+    font-size: 21px;
+  }
 }
 </style>
 </head>
 
 <body>
-<h1>📖 THE Vyni D Trill Spellbook Codex</h1>
+
+<img
+  class="cover"
+  src="IMG_2014.png"
+  alt="The Vyni D Spellbook — The VDC Codex"
+>
+
+<a class="enter-button" href="#archive">
+  ✨ Enter the Codex
+</a>
+
+<section class="archive" id="archive">
+
+<h1>📖 The Vyni D Spellbook Codex</h1>
 
 <h2>The Official Archive</h2>
 
-<p>
-Welcome to the VDC Codex.
+<p class="description">
+Welcome to the VDC Codex.<br>
+Enter the preserved archive of spells, books, rules, characters,
+history, and creations.
 </p>
 
 <hr>
-<p><a href="brohmu.html">📚 Book of Brohmu</a></p>
 
-<p><a href="menes.html">👑 Book of Menes</a></p>
+<div class="navigation">
 
-<p><a href="rules.html">⚖️ Rules</a></p>
+<a href="brohmu.html">📚 Book of Brohmu</a>
 
-<p><a href="books.html">📖 Books</a></p>
+<a href="menes.html">👑 Book of Menes</a>
 
-<p><a href="purpose.html">🎯 Purpose of the VDC Codex</a></p>
+<a href="rules.html">⚖️ Rules</a>
 
-<p><a href="characters.html">👥 Characters</a></p>
-  
+<a href="books.html">📖 Books</a>
+
+<a href="purpose.html">🎯 Purpose of the VDC Codex</a>
+
+<a href="characters.html">👥 Character Archive</a>
+
+</div>
+
+</section>
+
 </body>
 </html>
