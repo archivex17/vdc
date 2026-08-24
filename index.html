@@ -201,6 +201,19 @@ function openCodex(event) {
     playAttempt.catch(revealArchive);
   }
 }
+window.addEventListener("DOMContentLoaded", function () {
+  if (window.location.hash === "#archive") {
+    document.querySelector(".cover").style.display = "none";
+    document.querySelector(".enter-button").style.display = "none";
+    document.getElementById("openingVideo").style.display = "none";
+    document.getElementById("archive").style.display = "block";
+
+    window.scrollTo({
+      top: 0,
+      behavior: "auto"
+    });
+  }
+});
 </script>
 
 </body>
