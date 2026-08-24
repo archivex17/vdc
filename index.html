@@ -48,6 +48,7 @@ body {
 }
 
 .archive {
+  display: none;
   width: 100%;
   max-width: 850px;
   margin: auto;
@@ -119,7 +120,7 @@ h2 {
   alt="The Vyni D Spellbook — The VDC Codex"
 >
 
-<a class="enter-button" href="#archive">
+<a class="enter-button" href="#archive" onclick="openCodex(event)">  
   ✨ Enter the Codex
 </a>
 
@@ -154,6 +155,23 @@ history, and creations.
 </div>
 
 </section>
+
+<script>
+function openCodex(event) {
+  event.preventDefault();
+
+  document.querySelector(".cover").style.display = "none";
+  document.querySelector(".enter-button").style.display = "none";
+
+  const archive = document.getElementById("archive");
+  archive.style.display = "block";
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+</script>
 
 </body>
 </html>
