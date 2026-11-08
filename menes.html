@@ -1,54 +1,240 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Book of Menes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book of Menes | Vyni D Codex</title>
 
 <style>
-body{
-background:#0b0b0b;
-color:white;
-font-family:Georgia,serif;
-text-align:center;
-padding:60px;
+* {
+  box-sizing: border-box;
 }
 
-h1{
-color:gold;
-font-size:60px;
+html {
+  scroll-behavior: smooth;
 }
 
-h2{
-color:#8fd3ff;
+body {
+  margin: 0;
+  padding: 30px 16px 60px;
+  background: #123f30;
+  color: white;
+  font-family: Georgia, serif;
+  text-align: center;
 }
 
-a{
-color:#00d4ff;
-font-size:22px;
-text-decoration:none;
+h1 {
+  color: gold;
+  font-size: clamp(38px, 7vw, 60px);
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #8fd3ff;
+}
+
+p {
+  line-height: 1.7;
+}
+
+.intro {
+  max-width: 850px;
+  margin: 0 auto 35px;
+}
+
+.subtitle {
+  color: #d4af37;
+  font-size: 21px;
+}
+
+.navigation {
+  max-width: 900px;
+  margin: 25px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navigation a {
+  padding: 10px 15px;
+  background: #222;
+  border: 1px solid #d4af37;
+  border-radius: 9px;
+  font-size: 15px;
+}
+
+.section {
+  max-width: 900px;
+  margin: 28px auto;
+  padding: 25px 20px;
+  background: #222;
+  border: 2px solid #d4af37;
+  border-radius: 15px;
+}
+
+.section h2 {
+  margin-top: 0;
+}
+
+.description {
+  color: #ddd;
+  font-size: 16px;
+}
+
+.spells {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+  margin-top: 25px;
+}
+
+.spell {
+  display: block;
+  background: #173d32;
+  border: 1px solid #826b29;
+  border-radius: 10px;
+  padding: 20px 12px;
+  font-size: 19px;
+  transition: background .2s, transform .2s;
+}
+
+.spell:hover,
+.spell:focus {
+  background: #285a48;
+  transform: translateY(-2px);
+}
+
+a {
+  color: #00d4ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
 }
 </style>
-
 </head>
 
 <body>
 
-<h1>👑 BOOK OF MENES</h1>
+<header class="intro">
+  <h1>👑 Book of Menes</h1>
+  <h2>The Book of Strategy & Prosperity</h2>
 
-<h2>The Official Spellbook</h2>
+  <p class="subtitle">
+    The Official Business Archive
+  </p>
 
-<p>
-Every spell created by Menes is archived here.
-</p>
+  <p>
+    Welcome to the Book of Menes,
+    the strategic division of
+    the Vyni D Codex.
+  </p>
 
-<hr>
+  <p>
+    Within this book are the spells
+    of business intelligence,
+    content development,
+    monetization, strategy,
+    and sustainable growth.
+  </p>
 
-<p>⚜️ Me'Mevõcare</p>
+  <p>
+    Where Brohmu creates,
+    Menes develops the strategy
+    to bring those creations
+    into the world.
+  </p>
+</header>
 
-<p>⚜️ Menetor</p>
+<nav class="navigation">
+  <a href="#business">Business Strategy</a>
+  <a href="#content">Content Creation</a>
+  <a href="#intelligence">Strategic Intelligence</a>
+</nav>
 
-<hr>
+<main>
 
-<p><a href="index.html">← Return to the VDC Codex</a></p>
+<section class="section" id="business">
+  <h2>📈 Business Strategy & Growth</h2>
+
+  <p class="description">
+    Analyze business performance,
+    monetization opportunities,
+    audience growth,
+    competition, and strategic decisions.
+  </p>
+
+  <div class="spells">
+    <a class="spell" href="menetor.html">
+      ⚜️ Menetor
+    </a>
+  </div>
+</section>
+
+<section class="section" id="content">
+  <h2>📣 Content Creation & Publishing</h2>
+
+  <p class="description">
+    Develop engaging and informative
+    social media posts with strong
+    headers, captions, hashtags,
+    calls to action, and sources.
+  </p>
+
+  <div class="spells">
+    <a class="spell" href="memevocare.html">
+      ⚜️ Me’Mevõcare
+    </a>
+  </div>
+</section>
+
+<section class="section" id="intelligence">
+  <h2>🔎 Strategic Intelligence</h2>
+
+  <p class="description">
+    Combine content discovery
+    with strategic analysis
+    to identify valuable topics,
+    emerging opportunities,
+    and future growth directions.
+  </p>
+
+  <div class="spells">
+    <a class="spell" href="archivus-menetorus.html">
+      ⚜️ Archivus Menetorus
+    </a>
+  </div>
+
+  <p class="description">
+    This collaborative spell
+    combines the discovery powers
+    of Archivus with the
+    strategic intelligence
+    of Menetor.
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <p>⚜️ Vyni D Codex</p>
+  <p>Book of Menes — Strategy & Prosperity</p>
+
+  <p>
+    <a href="index.html">
+      ← Return to the VDC Codex
+    </a>
+  </p>
+</footer>
 
 </body>
 </html>
