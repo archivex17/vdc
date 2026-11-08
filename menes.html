@@ -7,17 +7,13 @@
 <title>Book of Menes | Vyni D Codex</title>
 
 <style>
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  padding: 30px 16px 60px;
+  padding: 30px 16px 65px;
   background: #123f30;
   color: white;
   font-family: Georgia, serif;
@@ -30,13 +26,9 @@ h1 {
   margin-bottom: 10px;
 }
 
-h2 {
-  color: #8fd3ff;
-}
+h2 { color: #8fd3ff; }
 
-p {
-  line-height: 1.7;
-}
+p { line-height: 1.7; }
 
 .intro {
   max-width: 850px;
@@ -49,7 +41,7 @@ p {
 }
 
 .navigation {
-  max-width: 900px;
+  max-width: 950px;
   margin: 25px auto;
   display: flex;
   flex-wrap: wrap;
@@ -58,7 +50,7 @@ p {
 }
 
 .navigation a {
-  padding: 10px 15px;
+  padding: 11px 15px;
   background: #222;
   border: 1px solid #d4af37;
   border-radius: 9px;
@@ -66,17 +58,15 @@ p {
 }
 
 .section {
-  max-width: 900px;
+  max-width: 950px;
   margin: 28px auto;
-  padding: 25px 20px;
+  padding: 26px 20px;
   background: #222;
   border: 2px solid #d4af37;
   border-radius: 15px;
 }
 
-.section h2 {
-  margin-top: 0;
-}
+.section h2 { margin-top: 0; }
 
 .description {
   color: #ddd;
@@ -86,18 +76,19 @@ p {
 .spells {
   display: grid;
   grid-template-columns:
-    repeat(auto-fit, minmax(200px, 1fr));
+    repeat(auto-fit, minmax(210px, 1fr));
   gap: 14px;
   margin-top: 25px;
 }
 
 .spell {
   display: block;
+  padding: 20px 12px;
   background: #173d32;
   border: 1px solid #826b29;
   border-radius: 10px;
-  padding: 20px 12px;
-  font-size: 19px;
+  color: #00d4ff;
+  text-decoration: none;
   transition: background .2s, transform .2s;
 }
 
@@ -107,18 +98,48 @@ p {
   transform: translateY(-2px);
 }
 
+.spell strong {
+  display: block;
+  font-size: 19px;
+}
+
+.spell span {
+  display: block;
+  margin-top: 9px;
+  color: #ddd;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 a {
   color: #00d4ff;
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
+a:hover { text-decoration: underline; }
+
+.workflow {
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #172d26;
+  border: 1px solid #d4af37;
+  border-radius: 15px;
+}
+
+.workflow p {
+  color: #f0dfac;
+  font-size: 18px;
 }
 
 footer {
   margin-top: 40px;
   padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .section { padding: 22px 14px; }
+  .navigation a { font-size: 14px; }
 }
 </style>
 </head>
@@ -127,99 +148,252 @@ footer {
 
 <header class="intro">
   <h1>👑 Book of Menes</h1>
-  <h2>The Book of Strategy & Prosperity</h2>
+  <h2>The Book of Strategy & Discovery</h2>
 
   <p class="subtitle">
-    The Official Business Archive
+    The Official Archive of Business,
+    Research & Content Creation
   </p>
 
   <p>
     Welcome to the Book of Menes,
-    the strategic division of
-    the Vyni D Codex.
+    the strategic intelligence division
+    of the Vyni D Codex.
   </p>
 
   <p>
-    Within this book are the spells
-    of business intelligence,
-    content development,
-    monetization, strategy,
-    and sustainable growth.
+    Here reside the spells of discovery,
+    historical research, cultural exploration,
+    content creation, business analysis,
+    and strategic growth.
   </p>
 
   <p>
-    Where Brohmu creates,
-    Menes develops the strategy
-    to bring those creations
-    into the world.
+    Archivus serves within the domain
+    of Menes, discovering the knowledge
+    and opportunities that fuel creation.
+  </p>
+
+  <p>
+    Where Brohmu creates and Noemmu
+    educates, Menes discovers,
+    strategizes, and develops.
   </p>
 </header>
 
 <nav class="navigation">
-  <a href="#business">Business Strategy</a>
+  <a href="#discovery">Discovery</a>
+  <a href="#research">Research</a>
   <a href="#content">Content Creation</a>
-  <a href="#intelligence">Strategic Intelligence</a>
+  <a href="#business">Business</a>
+  <a href="#collaboration">Collaboration</a>
 </nav>
 
 <main>
 
-<section class="section" id="business">
-  <h2>📈 Business Strategy & Growth</h2>
+<section class="section" id="discovery">
+  <h2>🔎 Content Discovery & Exploration</h2>
 
   <p class="description">
-    Analyze business performance,
-    monetization opportunities,
-    audience growth,
-    competition, and strategic decisions.
+    Discover new subjects, organize
+    content categories, explore
+    subcategories, and identify
+    valuable stories and opportunities.
   </p>
 
   <div class="spells">
-    <a class="spell" href="menetor.html">
-      ⚜️ Menetor
+
+    <a class="spell" href="archivus.html">
+      <strong>⚜️ Archivus</strong>
+      <span>
+        Research discovery and
+        content opportunity exploration.
+      </span>
     </a>
+
+    <a class="spell" href="categorium.html">
+      <strong>⚜️ Categorium</strong>
+      <span>
+        Organizes topics into broad
+        content categories.
+      </span>
+    </a>
+
+    <a class="spell" href="subagorium.html">
+      <strong>⚜️ Subagorium</strong>
+      <span>
+        Breaks categories into
+        specific subcategories.
+      </span>
+    </a>
+
+    <a class="spell" href="arsenuma.html">
+      <strong>⚜️ Arsenuma</strong>
+      <span>
+        Additional Codex discovery
+        spell. Consult its spell page
+        for its defined instructions.
+      </span>
+    </a>
+
+  </div>
+</section>
+
+<section class="section" id="research">
+  <h2>🏛️ Historical & Cultural Research</h2>
+
+  <p class="description">
+    Explore historical figures,
+    major events, cultural moments,
+    entertainment, and stories
+    from different periods.
+  </p>
+
+  <div class="spells">
+
+    <a class="spell" href="legatumus.html">
+      <strong>⚜️ Legatumus</strong>
+      <span>
+        Discovers important historical
+        figures and their legacies.
+      </span>
+    </a>
+
+    <a class="spell" href="popcultus.html">
+      <strong>⚜️ Popcultus</strong>
+      <span>
+        Explores pop culture,
+        celebrity moments, and
+        entertainment history.
+      </span>
+    </a>
+
+    <a class="spell" href="cinemavoris.html">
+      <strong>⚜️ Cinemavoris</strong>
+      <span>
+        Discovers movie scenes,
+        film moments, and cinematic
+        content opportunities.
+      </span>
+    </a>
+
+    <a class="spell" href="chronologus.html">
+      <strong>⚜️ Chronologus</strong>
+      <span>
+        Organizes historical events
+        into chronological timelines.
+      </span>
+    </a>
+
   </div>
 </section>
 
 <section class="section" id="content">
-  <h2>📣 Content Creation & Publishing</h2>
+  <h2>📣 Content Creation & Storytelling</h2>
 
   <p class="description">
-    Develop engaging and informative
-    social media posts with strong
-    headers, captions, hashtags,
-    calls to action, and sources.
+    Transform discovered information
+    into informative, entertaining,
+    and engaging social media content
+    for KingMemenes.
   </p>
 
   <div class="spells">
+
     <a class="spell" href="memevocare.html">
-      ⚜️ Me’Mevõcare
+      <strong>⚜️ Me’Mevõcare</strong>
+      <span>
+        Creates informative headers,
+        captions, hashtags, calls
+        to action, and sourced posts.
+      </span>
     </a>
+
+    <a class="spell" href="chronovis.html">
+      <strong>⚜️ Chronovis</strong>
+      <span>
+        Constructs historical
+        storytelling sequences
+        and visual slide narratives.
+      </span>
+    </a>
+
+  </div>
+
+  <p class="description">
+    Content may be prepared for
+    Instagram, Threads, TikTok,
+    Facebook, and YouTube.
+  </p>
+
+</section>
+
+<section class="section" id="business">
+  <h2>📈 Business Strategy & Monetization</h2>
+
+  <p class="description">
+    Analyze performance, identify
+    opportunities, evaluate business
+    decisions, and develop strategies
+    for sustainable growth.
+  </p>
+
+  <div class="spells">
+
+    <a class="spell" href="menetor.html">
+      <strong>⚜️ Menetor</strong>
+      <span>
+        Business analytics, audience
+        growth, monetization,
+        competitive research,
+        and strategic planning.
+      </span>
+    </a>
+
   </div>
 </section>
 
-<section class="section" id="intelligence">
-  <h2>🔎 Strategic Intelligence</h2>
+<section class="section" id="collaboration">
+  <h2>🤝 Collaborative Intelligence</h2>
 
   <p class="description">
-    Combine content discovery
-    with strategic analysis
-    to identify valuable topics,
-    emerging opportunities,
-    and future growth directions.
+    Combine discovery and business
+    intelligence to produce
+    actionable content strategies.
   </p>
 
   <div class="spells">
+
     <a class="spell" href="archivus-menetorus.html">
-      ⚜️ Archivus Menetorus
+      <strong>⚜️ Archivus Menetorus</strong>
+      <span>
+        Combines Archivus's
+        research discovery with
+        Menetor's business analysis
+        for strategic content briefings.
+      </span>
     </a>
+
   </div>
+</section>
+
+<section class="workflow">
+  <h2>⚜️ The KingMemenes Workflow</h2>
+
+  <p>
+    Categorium
+    → Subagorium
+    → Archivus
+    → Me’Mevõcare
+    → Menetor
+  </p>
 
   <p class="description">
-    This collaborative spell
-    combines the discovery powers
-    of Archivus with the
-    strategic intelligence
-    of Menetor.
+    First organize the subject,
+    then explore its subcategories,
+    discover verified stories,
+    construct engaging content,
+    and analyze the results.
   </p>
 </section>
 
@@ -227,7 +401,11 @@ footer {
 
 <footer>
   <p>⚜️ Vyni D Codex</p>
-  <p>Book of Menes — Strategy & Prosperity</p>
+
+  <p>
+    Book of Menes —
+    Discovery, Strategy & Prosperity
+  </p>
 
   <p>
     <a href="index.html">
