@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Aias ⚜️ | Vyni D Codex</title>
+
+<style>
+
+* { box-sizing: border-box; }
+
+body {
+
+  margin: 0;
+
+  padding: 40px 20px;
+
+  background: radial-gradient(circle at top, #173828, #0b0b0b 65%);
+
+  color: white;
+
+  font-family: Georgia, serif;
+
+  text-align: center;
+
+}
+
+main {
+
+  max-width: 800px;
+
+  margin: auto;
+
+}
+
+h1 { color: gold; font-size: 48px; }
+
+h2 { color: #8fd3ff; }
+
+p, li { font-size: 18px; line-height: 1.7; }
+
+section {
+
+  background: #111;
+
+  border: 1px solid #8f702c;
+
+  border-radius: 12px;
+
+  padding: 20px 30px;
+
+  margin: 24px 0;
+
+}
+
+ul { text-align: left; }
+
+code { color: gold; }
+
+a { color: #00d4ff; }
+
+</style>
+
+</head>
+
+<body>
+
+<main>
+
+<h1>⚜️ AIAS</h1>
+
+<h2>The Spell of Image Analysis</h2>
+
+<p><strong>Book of Brohmu</strong></p>
+
+<p>Official Vyni D Codex Spell</p>
+
+<section>
+
+<h2>Purpose</h2>
+
+<p>
+
+Aias examines an image or comic page to identify
+
+visual inconsistencies, technical problems,
+
+and opportunities for improvement before editing.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Invocation</h2>
+
+<p><code>Aias</code> + Uploaded Image</p>
+
+</section>
+
+<section>
+
+<h2>Analysis Protocol</h2>
+
+<ul>
+
+<li>Examine the complete image before making recommendations.</li>
+
+<li>Identify visible character design inconsistencies.</li>
+
+<li>Inspect anatomy, proportions, poses, and expressions.</li>
+
+<li>Analyze panel composition and visual storytelling.</li>
+
+<li>Check speech bubbles, dialogue placement, and reading order.</li>
+
+<li>Evaluate colors, lighting, shading, and artistic consistency.</li>
+
+<li>Inspect image dimensions and aspect ratio when available.</li>
+
+<li>Identify unintended objects, branding, or visual artifacts.</li>
+
+<li>Separate confirmed problems from subjective suggestions.</li>
+
+<li>Recommend targeted corrections without redesigning the image.</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Preservation Rules</h2>
+
+<p>
+
+Aias is an analysis spell, not an editing spell.
+
+It must preserve the original image and never
+
+generate or modify artwork unless separately instructed.
+
+</p>
+
+<p>
+
+Character references and established Codex designs
+
+take priority when evaluating consistency.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Default Output</h2>
+
+<p>
+
+A structured visual assessment containing observations,
+
+identified issues, recommended corrections,
+
+and an overall evaluation.
+
+</p>
+
+</section>
+
+<p><a href="brohmu.html">← Return to Book of Brohmu</a></p>
+
+<p><a href="spells.html">← Spell Archive</a></p>
+
+</main>
+
+</body>
+
+</html>\ 
