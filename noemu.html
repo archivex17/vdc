@@ -1,100 +1,264 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Book of Noemu</title>
+<title>Book of Noemmu | Vyni D Codex</title>
 
-  <style>
-    body {
-      background: radial-gradient(circle at top, #173828 0%, #0b0b0b 45%);
-      color: white;
-      font-family: Georgia, serif;
-      text-align: center;
-      margin: 0;
-      padding: 40px 20px 80px;
-    }
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    .book {
-      width: 100%;
-      max-width: 850px;
-      margin: auto;
-      padding: 40px 20px;
-      background: rgba(0, 0, 0, 0.78);
-      border: 2px solid #8f702c;
-      border-radius: 16px;
-      box-sizing: border-box;
-    }
+html {
+  scroll-behavior: smooth;
+}
 
-    h1 {
-      color: gold;
-      font-size: 52px;
-      margin-top: 0;
-    }
+body {
+  background: radial-gradient(
+    circle at top,
+    #173828 0%,
+    #0b0b0b 55%
+  );
+  color: white;
+  font-family: Georgia, serif;
+  text-align: center;
+  margin: 0;
+  padding: 40px 20px 80px;
+}
 
-    h2 {
-      color: #8fd3ff;
-    }
+.book {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+  background: rgba(0, 0, 0, 0.78);
+  border: 2px solid #8f702c;
+  border-radius: 16px;
+}
 
-    p {
-      font-size: 20px;
-      line-height: 1.6;
-    }
+h1 {
+  color: gold;
+  font-size: clamp(36px, 7vw, 52px);
+  margin-top: 0;
+}
 
-    .navigation {
-      margin-top: 35px;
-    }
+h2 {
+  color: #8fd3ff;
+}
 
-    .navigation a {
-      display: block;
-      max-width: 500px;
-      margin: 18px auto;
-      padding: 14px;
-      color: #00d4ff;
-      background: #111;
-      border: 1px solid #8f702c;
-      border-radius: 8px;
-      text-decoration: none;
-      font-size: 22px;
-    }
+p {
+  font-size: 18px;
+  line-height: 1.7;
+}
 
-    @media (max-width: 600px) {
-      body {
-        padding: 20px 12px 60px;
-      }
+.subtitle {
+  color: #d4af37;
+  font-size: 21px;
+}
 
-      h1 {
-        font-size: 38px;
-      }
-    }
-  </style>
+.section {
+  margin: 30px auto;
+  padding: 25px 18px;
+  background: #222;
+  border: 2px solid #d4af37;
+  border-radius: 15px;
+}
+
+.section h2 {
+  margin-top: 0;
+}
+
+.description {
+  color: #ddd;
+  font-size: 16px;
+}
+
+.spells {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.spell {
+  display: block;
+  padding: 20px 12px;
+  background: #173d32;
+  border: 1px solid #826b29;
+  border-radius: 10px;
+  color: #00d4ff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: background .2s, transform .2s;
+}
+
+.spell:hover,
+.spell:focus {
+  background: #285a48;
+  transform: translateY(-2px);
+}
+
+.navigation {
+  margin-top: 35px;
+}
+
+.navigation a {
+  display: block;
+  max-width: 500px;
+  margin: 15px auto;
+  padding: 14px;
+  color: #00d4ff;
+  background: #111;
+  border: 1px solid #8f702c;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.navigation a:hover {
+  background: #173828;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 20px 12px 60px;
+  }
+
+  .book {
+    padding: 25px 15px;
+  }
+}
+</style>
 </head>
 
 <body>
 
-  <section class="book">
-    <h1>🦉 Book of Noemu</h1>
+<main class="book">
 
-    <h2>The Educational Spirit</h2>
+<header>
+  <h1>🦉 Book of Noemmu</h1>
+  <h2>The Spirit of Education & Wisdom</h2>
 
-    <p>
-      The Book of Noemu preserves knowledge, lessons, discoveries,
-      educational spells, and the wisdom gathered throughout the Vyni D Codex.
-    </p>
+  <p class="subtitle">
+    The Official Educational Archive
+  </p>
 
-    <p>
-      As the Codex grows, Noemu’s teachings and collected knowledge
-      will be archived within these pages.
-    </p>
+  <p>
+    Welcome to the Book of Noemmu,
+    the educational division
+    of the Vyni D Codex.
+  </p>
 
-    <hr>
+  <p>
+    Within this book are the spells
+    of learning, language,
+    memory, study techniques,
+    and knowledge preservation.
+  </p>
 
-    <div class="navigation">
-      <a href="books.html">📖 Return to the Books Library</a>
-      <a href="index.html">✨ Return to the VDC Codex</a>
-    </div>
-  </section>
+  <p>
+    Where Brohmu creates
+    and Menes strategizes,
+    Noemmu transforms information
+    into understanding.
+  </p>
+</header>
+
+<section class="section" id="definitions">
+  <h2>📖 Definitions & Understanding</h2>
+
+  <p class="description">
+    Discover the meanings of words,
+    concepts, historical terminology,
+    and academic subjects.
+  </p>
+
+  <div class="spells">
+    <a class="spell" href="definarium.html">
+      ⚜️ Definarium
+    </a>
+  </div>
+</section>
+
+<section class="section" id="memory">
+  <h2>🎵 Memory & Educational Music</h2>
+
+  <p class="description">
+    Transform educational information
+    into memorable songs, rhymes,
+    and structured study material.
+  </p>
+
+  <div class="spells">
+    <a class="spell" href="suno.html">
+      ⚜️ Suno
+    </a>
+  </div>
+</section>
+
+<section class="section" id="grammar">
+  <h2>✍️ Grammar & Writing Development</h2>
+
+  <p class="description">
+    Analyze writing, identify errors,
+    explain grammatical rules,
+    and evaluate written work.
+  </p>
+
+  <div class="spells">
+    <a class="spell" href="engrameck.html">
+      ⚜️ Ẽngrameck
+    </a>
+  </div>
+</section>
+
+<section class="section" id="principles">
+  <h2>🧠 Noemmu's Educational Principles</h2>
+
+  <p class="description">
+    The purpose of education
+    is not simply memorization,
+    but genuine understanding.
+  </p>
+
+  <p>
+    Every lesson should encourage
+    curiosity, independent thought,
+    creativity, and the freedom
+    to explore knowledge.
+  </p>
+
+  <p>
+    Noemmu's educational spells
+    are designed to make learning
+    more accessible, engaging,
+    and memorable.
+  </p>
+</section>
+
+<footer>
+  <p>⚜️ Vyni D Codex</p>
+  <p>
+    Book of Noemmu —
+    Education & Wisdom
+  </p>
+
+  <nav class="navigation">
+    <a href="books.html">
+      📖 Return to the Books Library
+    </a>
+
+    <a href="index.html">
+      ✨ Return to the VDC Codex
+    </a>
+  </nav>
+</footer>
+
+</main>
 
 </body>
 </html>
