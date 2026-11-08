@@ -1,106 +1,335 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Brohmu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book of Brohmu | Vyni D Codex</title>
 
 <style>
-body{
-background:#0b0b0b;
-color:white;
-font-family:Georgia,serif;
-text-align:center;
-padding:60px;
+* {
+  box-sizing: border-box;
 }
 
-h1{
-color:gold;
-font-size:60px;
+html {
+  scroll-behavior: smooth;
 }
 
-h2{
-color:#8fd3ff;
+body {
+  margin: 0;
+  padding: 28px 16px 60px;
+  background: #123f30;
+  color: #fff;
+  font-family: Georgia, serif;
+  text-align: center;
 }
 
-a{
-color:#00d4ff;
-font-size:22px;
-text-decoration:none;
+h1 {
+  color: gold;
+  font-size: clamp(38px, 7vw, 60px);
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #8fd3ff;
+}
+
+p {
+  line-height: 1.7;
+}
+
+.intro {
+  max-width: 850px;
+  margin: 0 auto 32px;
+}
+
+.subtitle {
+  color: #d4af37;
+  font-size: 20px;
+}
+
+.navigation {
+  max-width: 950px;
+  margin: 25px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navigation a {
+  padding: 10px 14px;
+  border: 1px solid #d4af37;
+  border-radius: 9px;
+  background: #222;
+  font-size: 15px;
+}
+
+.section {
+  max-width: 950px;
+  margin: 28px auto;
+  padding: 25px 20px;
+  background: #222;
+  border: 2px solid #d4af37;
+  border-radius: 15px;
+}
+
+.section h2 {
+  margin-top: 0;
+  font-size: 26px;
+}
+
+.description {
+  color: #ddd;
+  font-size: 15px;
+}
+
+.spells {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.spell {
+  display: block;
+  padding: 15px 10px;
+  background: #173d32;
+  border: 1px solid #826b29;
+  border-radius: 10px;
+  font-size: 17px;
+  transition: background .2s, transform .2s;
+}
+
+.spell:hover,
+.spell:focus {
+  background: #285a48;
+  transform: translateY(-2px);
+}
+
+a {
+  color: #00d4ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 35px;
+  padding: 20px;
+}
+
+footer a {
+  font-size: 20px;
 }
 </style>
-
 </head>
 
 <body>
 
-<h1>📘 Book of Brohmu</h1>
+<header class="intro">
+  <h1>⚜️ Book of Brohmu</h1>
+  <h2>The Heart of the Codex</h2>
+  <p class="subtitle">
+    The Official Creative Archive
+  </p>
 
-<h2>The Heart of the Codex</h2>
+  <p>
+    Welcome to the Book of Brohmu.
+    This archive preserves the creative,
+    artistic, and visual production spells
+    of the Vyni D Codex.
+  </p>
 
-<p>
-The Official Archive of Brohmu
+  <p>
+    I am Brohmu, guardian of creation.
+    Within this book lie the spells
+    of imagination, illustration,
+    character consistency, comic
+    production, and visual restoration.
+  </p>
+</header>
 
-Welcome to the Book of Brohmu.
+<nav class="navigation">
+  <a href="#creation">Image Creation</a>
+  <a href="#analysis">Image Analysis</a>
+  <a href="#characters">Character Continuity</a>
+  <a href="#color">Color & Rendering</a>
+  <a href="#corrections">Corrections</a>
+  <a href="#comics">Comic Production</a>
+  <a href="#summoning">Summoning</a>
+</nav>
 
-All Brohmu spells, history, creatures, and knowledge are preserved here.
-</p>
+<main>
 
-<p>
-I am Brohmu, guardian of the VDC Codex.
-Every spell, archive, and creation begins here.
-</p>
+<section class="section" id="creation">
+  <h2>🎨 Image Creation & Artistic Tools</h2>
 
-<hr>
-  
-  
-<h2>🎨 Image Creation</h2>
+  <p class="description">
+    Spells for generating, refining,
+    constructing, and transforming artwork.
+  </p>
 
-<p><a href="creation.html">Creation</a></p>
-<p><a href="stylus.html">Stylus</a></p>
-<p><a href="refinara.html">Refinara</a></p>
-<p><a href="restorus.html">Restorus</a></p>
-<p><a href="trillafye.html">Trillafye</a></p>
+  <div class="spells">
+    <a class="spell" href="creation.html">Creation</a>
+    <a class="spell" href="stylus.html">Stylus</a>
+    <a class="spell" href="refinara.html">Refinara</a>
+    <a class="spell" href="restorus.html">Restorus</a>
+    <a class="spell" href="trillafye.html">Trillafye</a>
+    <a class="spell" href="collagius.html">Collagius</a>
+    <a class="spell" href="aequiformis.html">Aequiformis</a>
+    <a class="spell" href="reformis.html">Reformis</a>
+  </div>
+</section>
 
-<h2>🖼 Image Analysis</h2>
+<section class="section" id="analysis">
+  <h2>🔍 Image Analysis & Prompt Construction</h2>
 
-<p><a href="imnalyses.html">Imnalyses</a></p>
-<p><a href="picnalyses.html">Picnalyses</a></p>
-<p><a href="prenalyses.html">Prenalyses</a></p>
-<p><a href="panelysis.html">Panelysis</a></p>
-<p><a href="terranalyses.html">Terranalyses</a></p>
-<p><a href="motionalyses.html">Motionalyses</a></p>
-<p><a href="conalyses.html">Conalyses</a></p>
-<p><a href="actius.html">Actius</a></p>
-<p><a href="aias.html">Aias</a></p>
-<p><a href="scanalyses.html">Scanalyses</a></p>
+  <p class="description">
+    Spells for analyzing images,
+    examining visual details, and
+    constructing precise generation prompts.
+  </p>
 
-<p><a href="improblehn.html">Impröblehn</a></p>
-<p><a href="terraproblehn.html">Terrapröblehn</a></p>
-<p><a href="motiproblehn.html">Motipröblehn</a></p>
+  <div class="spells">
+    <a class="spell" href="imnalyses.html">Imnalyses</a>
+    <a class="spell" href="picnalyses.html">Picnalyses</a>
+    <a class="spell" href="prenalyses.html">Prenalyses</a>
+    <a class="spell" href="panelysis.html">Panelysis</a>
+    <a class="spell" href="terranalyses.html">Terranalyses</a>
+    <a class="spell" href="motionalyses.html">Motionalyses</a>
+    <a class="spell" href="conalyses.html">Conalyses</a>
+    <a class="spell" href="actius.html">Actius</a>
+    <a class="spell" href="aias.html">Aias</a>
+    <a class="spell" href="scanalyses.html">Scanalyses</a>
+    <a class="spell" href="improblehn.html">Impröblehn</a>
+    <a class="spell" href="motiproblehn.html">Motipröblehn</a>
+    <a class="spell" href="terrapromblehn.html">Terrapröblehn</a>
+    <a class="spell" href="anatomous.html">Anatomous</a>
+  </div>
+</section>
 
-<h2>🎭 Character Continuity</h2>
+<section class="section" id="characters">
+  <h2>🎭 Character Design & Continuity</h2>
 
-<p><a href="continuance.html">Continuance</a></p>
-<p><a href="charalock.html">Charalock</a></p>
-<p><a href="lorebind.html">Lorebind</a></p>
-<p><a href="momentumicus.html">Momentumicus</a></p>
-<p><a href="prostoricus.html">Prostoricus</a></p>
+  <p class="description">
+    Preserve character identity,
+    proportions, appearance, and
+    visual consistency across artwork.
+  </p>
 
-<h2>🎨 Color & Rendering</h2>
+  <div class="spells">
+    <a class="spell" href="continuance.html">Continuance</a>
+    <a class="spell" href="charalock.html">Charalock</a>
+    <a class="spell" href="lorebind.html">Lorebind</a>
+    <a class="spell" href="momentumicus.html">Momentumicus</a>
+    <a class="spell" href="prostoricus.html">Prostoricus</a>
+    <a class="spell" href="collim.html">Collim</a>
+    <a class="spell" href="differentation.html">Differentation</a>
+    <a class="spell" href="fixus.html">Fixus</a>
+  </div>
+</section>
 
-<p><a href="chromitus.html">Chromitus</a></p>
-<p><a href="chromaticus.html">Chromaticus</a></p>
-<p><a href="compositus.html">Compositus</a></p> 
-<p><a href="skinblend.html">Skinblend</a></p>
-<p><a href="albuscriptus.html">Albuscriptus</a></p>
+<section class="section" id="color">
+  <h2>🌈 Color, Rendering & Integration</h2>
 
-<h2>🛠 Corrections</h2>
+  <p class="description">
+    Maintain artistic style, color,
+    shading, visual integration,
+    and rendering consistency.
+  </p>
 
-<p><a href="fixation.html">Fixation</a></p>
-<p><a href="refitus.html">Refitus</a></p>
-<p><a href="invisicus.html">Invisicus</a></p>
+  <div class="spells">
+    <a class="spell" href="chromitus.html">Chromitus</a>
+    <a class="spell" href="chromaticus.html">Chromaticus</a>
+    <a class="spell" href="compositus.html">Compositus</a>
+    <a class="spell" href="skinblend.html">Skinblend</a>
+    <a class="spell" href="albuscriptus.html">Albuscriptus</a>
+    <a class="spell" href="chromopost.html">Chromopost</a>
+  </div>
+</section>
 
-<hr>
+<section class="section" id="corrections">
+  <h2>🛠 Corrections & Restoration</h2>
 
-<p><a href="index.html">← Return to the Codex</a></p>
+  <p class="description">
+    Repair specific visual problems
+    while protecting approved artwork
+    and established designs.
+  </p>
+
+  <div class="spells">
+    <a class="spell" href="fixation.html">Fixation</a>
+    <a class="spell" href="refitus.html">Refitus</a>
+    <a class="spell" href="refiticus.html">Refiticus</a>
+    <a class="spell" href="invisicus.html">Invisicus</a>
+    <a class="spell" href="adactius.html">Adactius</a>
+  </div>
+</section>
+
+<section class="section" id="comics">
+  <h2>📖 Comic Production & Combat</h2>
+
+  <p class="description">
+    Construct dynamic scenes,
+    organize comic artwork,
+    and develop readable action sequences.
+  </p>
+
+  <div class="spells">
+    <a class="spell" href="imaginarium-combat.html">
+      Imaginarium Combat
+    </a>
+    <a class="spell" href="prostoricus.html">
+      Prostoricus
+    </a>
+    <a class="spell" href="collagius.html">
+      Collagius
+    </a>
+    <a class="spell" href="aequiformis.html">
+      Aequiformis
+    </a>
+    <a class="spell" href="reformis.html">
+      Reformis
+    </a>
+  </div>
+</section>
+
+<section class="section" id="summoning">
+  <h2>🔮 Summoning & Creative Tools</h2>
+
+  <p class="description">
+    Invoke Codex characters,
+    creative systems, and
+    previously established websites.
+  </p>
+
+  <div class="spells">
+    <a class="spell" href="mu.html">Mü</a>
+    <a class="spell" href="sumumu.html">Sumumü</a>
+    <a class="spell" href="situs-vocare.html">
+      Situs Vocare
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>
+    ⚜️ Vyni D Codex
+  </p>
+  <p>
+    The Book of Brohmu
+    — Guardian of Creation
+  </p>
+  <a href="index.html">
+    ← Return to the Codex
+  </a>
+</footer>
+
 </body>
 </html>
